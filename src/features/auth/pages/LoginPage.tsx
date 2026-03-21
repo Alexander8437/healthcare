@@ -38,6 +38,8 @@ export default function LoginPage(){
  return(
   <div className="h-screen flex items-center justify-center bg-gray-100">
    <div className="bg-white p-6 rounded shadow w-80">
+  <p><b>Email: </b>test@healthcare.com</p>
+  <p><b>Password: </b>123456</p>
      <input className="border p-2 w-full mb-2" onChange={e=>setEmail(e.target.value)} placeholder="Email"/>
      <input className="border p-2 w-full mb-2" type="password" onChange={e=>setPassword(e.target.value)} placeholder="Password"/>
      {error && (
